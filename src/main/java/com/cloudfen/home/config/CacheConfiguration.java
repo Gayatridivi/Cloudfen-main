@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, com.cloudfen.home.domain.User.class.getName());
             createCache(cm, com.cloudfen.home.domain.Authority.class.getName());
             createCache(cm, com.cloudfen.home.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.cloudfen.home.domain.UserAccount.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
