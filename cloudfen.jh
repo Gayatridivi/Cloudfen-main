@@ -1,0 +1,11 @@
+entity Account{
+userId Long,
+firstName String,
+lastName String,
+phone String,
+passport String,
+email String,
+
+}
+
+service all with serviceImpl
